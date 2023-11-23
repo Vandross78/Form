@@ -10,9 +10,9 @@
 		body{
 			background-color: black;
 			height: 25%;
-			width: 50%;
-			margin: 100px;
-			margin-left: 100px;
+			width: 45%;
+			margin: 150px;
+			margin-left: 300px;
 			margin: center;
 			
 		}
@@ -47,4 +47,11 @@
 			margin-left: 100px;
 			border: 10cqb;
 			border-radius: 15cqb;
+		}
+		.Nums input{
+			margin: 1px
+			
+		}
+		.Top input{
+			margin-left: 9.5%;
 		}
