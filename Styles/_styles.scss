@@ -1,0 +1,10 @@
+.btn1{
+    background-color: $primaryColor;
+    height: $buttonHeight;
+    @include Case();
+}
+.btn2{
+    background-color: $secondaryColor;
+    height: $buttonHeight;
+    @include Case();
+}

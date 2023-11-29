@@ -1,0 +1,12 @@
+@mixin Case(){
+    &:hover{
+        background-color: red;
+        color: White;
+    }
+
+    &:active{
+        background-color: Gold;
+        color: black;
+    }
+
+}

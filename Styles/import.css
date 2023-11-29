@@ -1,0 +1,25 @@
+.btn1 {
+  background-color: rgb(17, 84, 19);
+  height: 50px;
+}
+.btn1:hover {
+  background-color: red;
+  color: White;
+}
+.btn1:active {
+  background-color: Gold;
+  color: black;
+}
+
+.btn2 {
+  background-color: Blue;
+  height: 50px;
+}
+.btn2:hover {
+  background-color: red;
+  color: White;
+}
+.btn2:active {
+  background-color: Gold;
+  color: black;
+}/*# sourceMappingURL=import.css.map */
