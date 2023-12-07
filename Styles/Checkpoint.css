@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.Frio {
+    background-color:grey;
+    display: flex;
+    
+}
+.Cro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+
+}
+
+header{display:flex;
+    justify-content:space-between;
+    align-items:center;}
+    
+
+li{
+    display: inline;
+}
+.youtube{
+
+}
+
