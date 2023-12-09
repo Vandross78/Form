@@ -1,29 +1,108 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: grey;
-}
-
-.Frio {
-    background-color:grey;
-    display: flex;
+    box-sizing: border-box;
     
 }
-.Cro{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    float: right;
-
+.Code{
+    background-image:url(gfgfgh.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
 }
-
-header{display:flex;
-    justify-content:space-between;
-    align-items:center;}
+.navbar{
+    line-height:normal;
+    border-bottom: 1px solid black;
+}
+.navbar-nav{
+    /* line-height:normal;
+    border-bottom: 1px solid black; */
+    padding: 15px 20px;
+    margin-left: 50%;
     
-
-li{
-    display: inline;
+    /* float: right; */
 }
-.youtube{
+/* .navbar{
+        background-color: green;
+        height: 45px; */
+
+/* } */
+.nav-link{
+    
+    color: whitesmoke;
+    padding: 15px 20px;
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    
+}
+.nav-link:hover{
+    color: black;
+    background-color: lightblue;
+    text-decoration: none;
+    border-radius:10px;
+}
+.navbar-brand{
+    color: black;
+    /* padding: 50px; */
+    /* padding-inline: 100px; */
+    /* padding-top: 80px; */
+    font-display: 80%;
+    font-weight: 800;
+    font-size: large;
+    font-family: 'Arial Narrow Bold';
+    text-decoration: none;
+    position: relative;
+    top: 22px;
+}
+
+.main{
+    /* background-image: url(/Styles/8BADE749-9D70-418A-92CD-F6F2C7CBC306_1_105_c.jpeg); */
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding: 80px;
+}
+.main h3{
+    color: black;
+    font-family: serif;
+}
+
+.main h6{
+    color:black;
+    font-family: serif;
+}
+.profile-image img{
+    /* background-image: url(/Styles/8BADE749-9D70-418A-92CD-F6F2C7CBC306_1_105_c.jpeg); */
+    border-radius: 180%;
+    border: 1px solid skyblue;
+    width: 250px;
+    height: 250px;
 
 }
+.btn1{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 120px;
+    height:50px;
+}
+.btn2{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 120px;
+    height:50px;
+}
+.btn1:hover{
+    background-color:lightblue;
+}
+.btn2:hover{
+    background-color:lightblue;
+}
+
+
+
 

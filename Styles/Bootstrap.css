@@ -2,36 +2,49 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     
 }
 
 .der{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-image:url(gfgfgh.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
 }
 .heading{
     background-color: green;
+    align-items: first baseline;
     width: 100%;
-    height: 150px;
+    height: 100px;
+    /* display: inline; */
 }
 .logo{
-    /* padding: 35px; */
-    padding-top: 50px;
+    padding: 35px;
+    padding-top: 30px;
     padding-left: 10%;
     font-size: 45px;
 }
 
 .nav-bar{
-    /* padding: 10px 5px; */
-    padding-bottom: 100px;
+    padding: 10px 45px;
     margin-left: 50%;
+    display: inline;
     
 }
 
 .nav-bar a{
-    padding: 15px 10px;
+    padding: 45px 15px;
     color: black;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+    
 
+}
+.nav-bar:hover{
+    color:black;
+    background-color:azure;
 }
