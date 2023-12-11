@@ -2,13 +2,17 @@
     padding: 0;
     margin: 0;
 }
+
+.background{
+    background-image: url(/Styles/abstract-technology-background-2.jpg);
+}
 .container{
-    background-color: skyblue;
+    background-color: deepskyblue;
     width: 100%;
     height: 100px;
 }
-.Clode{
-    border-bottom: 3px solid black;
+.clode{
+    border-bottom: 3px solid white;
 }
 
 .Label{
@@ -28,7 +32,7 @@
 }
 
 .box{
-    Color: grey;
+    Color: black;
     /* height: 50px; */
     font-size: 35px;
     font-family:'Arial Narrow Bold';
@@ -41,7 +45,7 @@
 
 .box:hover {
     color: whitesmoke;
-    background-color: darkslategrey;
+    background-color: black;
     border-radius: 10px;
     border-style: dotted white;
     cursor: pointer;
@@ -63,13 +67,13 @@
 
 .Intro1 img{
     height: 80%;
-    width: 100%;
+    width: 97%;
     border-radius: 150px;
     
 }
 
 .Intro2{
-    color: black;
+    color: whitesmoke;
     width: 50%;
     font-weight: 400;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -78,11 +82,12 @@
 }
 
 .btn1{
-    background-color: transparent;
+    background-color:deepskyblue;
+    color: black;
     border-radius: 10px;
     border-style: dotted;
     border-bottom-style: solid;
-    border-color: steelblue;
+    border-color: whitesmoke;
     width: 150px;
     height: 50px;
     cursor: pointer;
@@ -91,11 +96,12 @@
 }
 
 .btn2{
-    background-color: transparent;
+    background-color:deepskyblue;
+    color: black;
     border-radius: 10px;
     border-style: dotted;
     border-bottom-style: solid;
-    border-color: steelblue;
+    border-color: whitesmoke;
     cursor: pointer;
     width: 150px;
     height: 50px;
