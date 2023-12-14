@@ -1,0 +1,12 @@
+ALGORITHM iterative_repeat
+VAR
+    
+    password : INTEGER := 3;
+
+BEGIN
+    REPEAT
+        Read( password )
+    UNTIL ( password attempts >= 3 )
+
+    Write( password )
+END
