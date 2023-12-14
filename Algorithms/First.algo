@@ -1,0 +1,38 @@
+ALGORITHM addThreeNums // This is the algorithm name
+VAR                // This is the Variable
+    num1 : INTEGER;  //  A variable name and the data type
+    num2, num3 : INTEGER; // Two variable names sharing a single data type
+    sum : INTEGER := 0;  // A variable name with data type carrying 0 as the value
+CONST
+    pi : FLOAT := 3.17; //Variable names and data types that are fixed & can't be changed
+    name : STRING := "Salem";
+BEGIN
+    Write("Enter first number: ") // Output display for the user to type in his/her data
+    Read(num1)
+    Read(num2)
+    Read(num3)
+
+    sum := num1 + num2 + num3
+
+    Write(sum)
+
+    sum = 10;
+
+    Write(sum) 
+END
+
+ALGORITHM multiplyTwoNums
+VAR
+    a : INTEGER;
+    b : INTEGER;
+    result : INTEGER := 0;
+BEGIN
+    Write("Enter first number: ");
+    Read(a)
+    Write("Enter second number: ")
+    Read(b)
+
+    result := a * b
+
+    Write(result)
+END
