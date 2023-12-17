@@ -8,7 +8,7 @@ CONST
     name : STRING := "Salem";
 BEGIN
     Write("Enter first number: ") // Output display for the user to type in his/her data
-    Read(num1)
+    Read(num1) // Read means prompting the user for input
     Read(num2)
     Read(num3)
 

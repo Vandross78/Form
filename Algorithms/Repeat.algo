@@ -1,12 +1,15 @@
 ALGORITHM iterative_repeat
 VAR
-    
-    password : INTEGER := 3;
+    Correct: STRING; 
+    password: STRING;
+    Tries: INTEGER := 0;
 
 BEGIN
-    REPEAT
+    REPEAT //  This prompts the user for input
         Read( password )
-    UNTIL ( password attempts >= 3 )
+        Tries := Tries + 1
+        // if password attempts is more than 3 then break
+    UNTIL ( password = Correct OR Tries > 3)
 
     Write( password )
 END
