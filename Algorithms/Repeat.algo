@@ -1,6 +1,6 @@
 ALGORITHM iterative_repeat
 VAR
-    Correct: STRING := Blocks;
+    Correct: STRING := "Blocks";
     password: STRING;
     Tries: INTEGER := 0;
 
@@ -12,5 +12,7 @@ BEGIN
         // if password attempts is more than 3 then break
     UNTIL ( password = Correct) Or ( Password = Tries > 3) 
     
-    Write( Maximum attempts Exceeded )
+    IF(Tries > 3)
+        Write( Maximum attempts Exceeded )
+    END_IF
 END
